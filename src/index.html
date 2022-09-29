@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>template html</title>
+  </head>
+  <body>
+    <ul class="links">
+      <a href="/">top</a>
+      <a href="./bg.html">bg animation</a>
+      <a href="./animation.html">animation</a>
+    </ul>
+    <div class="wrap">
+      <div class="top">
+        <h1>GSAP学習</h1>
+        <p>第一回 勉強会</p>
+      </div>
+
+      <div class="container">
+        <!-- area1 -->
+        <div class="area" id="area01">
+          <h2 class="ttl01 ttl">スクロールに応じて動く</h2>
+          <div class="grid">
+            <div class="col">
+              <img src="<%= require('./images/test1.jpg') %>" />
+            </div>
+            <div class="col">
+              <img src="<%= require('./images/test2.jpg') %>" />
+            </div>
+            <div class="col">
+              <img src="<%= require('./images/test3.jpg') %>" />
+            </div>
+          </div>
+        </div>
+
+        <!-- area2 -->
+        <div class="area" id="area02">
+          <h2 class="ttl">Fade In</h2>
+          <div class="grid">
+            <div class="col">
+              <img src="<%= require('./images/test1.jpg') %>" />
+            </div>
+            <div class="col">
+              <img src="<%= require('./images/test2.jpg') %>" />
+            </div>
+            <div class="col">
+              <img src="<%= require('./images/test3.jpg') %>" />
+            </div>
+          </div>
+        </div>
+
+        <div class="area" id="area03">
+          <h2 class="ttl">Fade In Left</h2>
+          <div class="grid">
+            <div class="col">
+              <img src="<%= require('./images/test1.jpg') %>" />
+            </div>
+            <div class="col">
+              <img src="<%= require('./images/test2.jpg') %>" />
+            </div>
+            <div class="col">
+              <img src="<%= require('./images/test3.jpg') %>" />
+            </div>
+          </div>
+        </div>
+
+        <!-- area3 -->
+        <div class="area">
+          <h2 class="ttl">アニメーション</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
