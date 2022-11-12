@@ -76,6 +76,10 @@ module.exports = {
       template: "./src/animation.html",
       filename: "animation.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/test.html",
+      filename: "test.html",
+    }),
     new CleanWebpackPlugin(),
 
     new webpack.ProvidePlugin({
