@@ -72,13 +72,14 @@ module.exports = {
       template: "./src/bg.html",
       filename: "bg.html",
     }),
-    new HtmlWebpackPlugin({
-      template: "./src/animation.html",
-      filename: "animation.html",
-    }),
+
     new HtmlWebpackPlugin({
       template: "./src/test.html",
       filename: "test.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/top.html",
+      filename: "top.html",
     }),
     new CleanWebpackPlugin(),
 
